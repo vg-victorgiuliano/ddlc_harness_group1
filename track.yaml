@@ -1,11 +1,27 @@
-# Complete this file before writing the lifecycle skills.
-group: TODO
-track: TODO # SDLC, DDLC, KDLC, or PDLC
-context_repository: TODO # Local path to the assigned Portwell track repository
-process: TODO
-work_item: TODO
+group: Group 1 - DDLC
+track: DDLC # SDLC, DDLC, KDLC, or PDLC
+context_repository: ../portwell-analytics # Local path to the assigned Portwell track repository
+process: The month's figures are produced
+work_item: >
+  REQUEST-004 (self-service per account, July packs) chained with INCIDENT-03, the
+  definition-version dispute that followed it. REQUEST-007 (self-service for the August
+  packs, still open) is used as corroborating evidence and as the live subject the new
+  Handoff refusal is run against in traces/worked-case.md.
 
 constraints:
   track_repository_access: read-only
   heldout_course_material: prohibited
 
+participants:
+  - name: Victor Giuliano
+    role: Sole author of this Module 1 submission
+  - name: Fernanda Doria
+    role: Group 1 member; owns a later module
+  - name: Lucas Santos
+    role: Group 1 member; owns a later module
+  - name: Thalis Trabach
+    role: Group 1 member; owns a later module
+
+note: >
+  Group 1 rotates ownership of each week's module across its four members rather than
+  working every module together.
